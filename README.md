@@ -75,5 +75,15 @@ else if (xp >= 9001 && xp <= 10000) {
 **Declaração else final:**
 
 ```
-else if (xp >= 10001)
+else if (xp >= 10001) {
+    nivel = "Radiante";
+}
 ```
+Se a quantidade de XP for maior ou igual a 10001, o nível do herói é definido como "Radiante".
+
+**Saída**
+``` 
+console.log("O Herói de nome " + nome + " está no nível de " + nivel); 
+```
+
+**Finalmente, o código exibe uma mensagem com o nome e o nível do herói:**
